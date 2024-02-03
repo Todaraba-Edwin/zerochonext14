@@ -7,8 +7,10 @@ type Props = {
 } 
 
 export default function Layout({children, modal}:Props) {
+  
   return (
     <div className={styles.container}>
+      <p style={{position:'absolute'}}>beforeLogin의 그룹 라우팅</p>
       {children}
       {modal}
       {/* 

@@ -1,3 +1,4 @@
+
 import styles from '@/app/(beforeLogin)/_component/main.module.css'
 /*
   tailwind : 호불호가 너무 심하고, 가독성이 없다. 
@@ -12,6 +13,7 @@ import React from 'react'
 import zLoge from '/public/zlogo.png'
 
 export default function Main() {
+
   return (
     <>
     <div className={styles.left}>
